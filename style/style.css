@@ -33,6 +33,24 @@ p:nth-child(5){
     left: 550px;
     z-index: 3;
 }
+p:nth-child(6){
+    top: 2400px;
+    left: 150px;
+    font-family: 'Ramsey SD', sans-serif;
+}
+p:nth-child(7){
+    top: 3000px;
+    left: 450px;
+}
+p:nth-child(8){
+    top: 3900px;
+    left: 200px;
+}
+p:nth-child(9){
+    top: 4500px;
+    left: 250px;
+}
+
 
 
 .box{
@@ -71,6 +89,35 @@ p:nth-child(5){
     left: 400px;
     border-radius: 50%;
 }
+.box6{
+    height: 300px;
+    width: 300px;
+    top: 2800px;
+    left: 1400px;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+.box7{
+    height: 500px;
+    width: 600px;
+    top: 3800px;
+    left: 200px;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+.box8{
+    height: 200px;
+    width: 200px;
+    top: 4500px;
+    left: 800px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+}
+.box9{
+    height: 300px;
+    width: 300px;
+    top: 3500px;
+    left: 65000px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+}
+
 
 .footer {
     position: fixed;
