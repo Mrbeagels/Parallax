@@ -114,7 +114,7 @@ p:nth-child(9){
     height: 300px;
     width: 300px;
     top: 3500px;
-    left: 65000px;
+    left: 650px;
     clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
 }
 
