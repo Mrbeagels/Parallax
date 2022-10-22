@@ -1,29 +1,31 @@
 body{
     margin: 0;
     padding: 0;
-    background-color:  #957DAD
+    background-color:  #957DAD;
+    width: 100vh;
 }
 p{
     color: #FFDFD3;
     font-family: 'Here Just Now', sans-serif;
-    font-size: 300px;
+    font-size: 200px;
     margin: 0;
     position: absolute;
 }
 p:nth-child(1){
     top: 0px;
-    left: 850px;
+    left: 150px;
+    font-family: 'Ramsey SD', sans-serif;
 }
 p:nth-child(2){
     top: 1600px;
-    left: 600px;
+    left: 0px;
 }
 p:nth-child(3){
     top: 1400px;
-    left: 50px;
+    left: 250px;
 }
 p:nth-child(4){
-    top: 500px;
+    top: 700px;
     left: 250px;
 }
 p:nth-child(5){
@@ -32,6 +34,7 @@ p:nth-child(5){
     z-index: 3;
 }
 
+
 .box{
     position: absolute;
     background:#D291BC
@@ -39,7 +42,7 @@ p:nth-child(5){
 .box1{
     height: 300px;
     width: 200px;
-    top: 100px;
+    top: 250px;
     left: 200px;
 }
 .box2{
